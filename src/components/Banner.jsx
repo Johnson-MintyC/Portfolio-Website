@@ -59,7 +59,7 @@ const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{`Hi I'm Johnson  `}<br></br><span className="wrap">a {text}</span></h1>
+                        <h1>{`I'm Johnson Cho `}<br></br><span className="wrap">Software Engineer</span></h1>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae architecto delectus inventore fugit maxime pariatur nesciunt vero, necessitatibus animi ipsum nisi voluptate rem, quod assumenda. Error odio recusandae laudantium dolores.</p>
                         <button onClick={()=>console.log("wahatever")}>Let's Connect <ArrowRightCircle size={25}/></button>
                     </Col>

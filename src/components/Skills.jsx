@@ -11,6 +11,8 @@ import python from "../assets/img/icons/python.svg"
 import postgresql from "../assets/img/icons/postgresql.svg"
 import mongodb from "../assets/img/icons/mongodb.svg"
 import html5 from "../assets/img/icons/html-5.svg"
+import expic from "../assets/img/icons/express-logo.png"
+import flaskic from "../assets/img/icons/flask-logo-png-transparent2.png"
 
 const Skills = () => {
     const responsive = {
@@ -52,6 +54,10 @@ const Skills = () => {
                                 <p>Node JS</p>
                             </div>
                             <div className="item">
+                                <img src={expic} alt="Image" />
+                                <p>Express</p>
+                            </div>
+                            <div className="item">
                                 <img src={html5} alt="Image" />
                                 <p>HTML</p>
                             </div>
@@ -79,8 +85,8 @@ const Skills = () => {
                                 <p>MongoDB</p>
                             </div>
                             <div className="item">
-                                <img src="" alt="Image" />
-                                <h5>Flask</h5>
+                                <img src={flaskic} alt="Image" />
+                                <p>Flask</p>
                             </div>
                         </Carousel>
 

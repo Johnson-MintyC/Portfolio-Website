@@ -1,8 +1,8 @@
 import { useState } from "react"
-import { Container } from "react-bootstrap"
+import { Container, Col, Row } from "react-bootstrap"
 import contactImg from "../assets/img/contact-img.svg" 
 
-const Container = () => {
+const Contact = () => {
     const initialDeets = {
         firstName: "",
         lastName: "",
@@ -20,7 +20,25 @@ const Container = () => {
         })
     }
 
-    const handleSubmit = () => {}
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setButtonText("Sending...")
+        let response = await fetch("http://localhost:5000/contact", {
+            method: "POST",
+            headers: {
+                "Content-Type": "Application/json;charset=utf-8",
+            },
+            body: JSON.stringify(formDetails)
+        })
+        setButtonText("Send")
+        let result = response.json()
+        setFromDetails(initialDeets)
+        if (result.code === 200) {
+            setStatus({ success: true, message: "Message sent ok" })
+        } else {
+            setStatus({ success: false, message: "Please Try again" })
+        }
+    }
 
     return (
         <section className="contact" id="connect">
@@ -62,4 +80,4 @@ const Container = () => {
     )
 }
 
-export default Container
+export default Contact
