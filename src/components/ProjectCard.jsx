@@ -1,4 +1,4 @@
-import { Col } from "react-bootstrap"
+import { Col, Container } from "react-bootstrap"
 
 const ProjectCard = ({title, description, imgUrl, liveLink, gitLink}) => {
     return (
@@ -8,10 +8,10 @@ const ProjectCard = ({title, description, imgUrl, liveLink, gitLink}) => {
             <div className="proj-txtx">
                 <h4>{title}</h4>
                 <span>{description}</span>
-                <br/>
-                <button>Link</button>
-                <br/>
-                <button>Github</button>
+                <Container>
+                    <button className="vvd">Link</button>
+                    <button className="vvd">Github</button>
+                </Container>
             </div>
         </div>
     </Col>)

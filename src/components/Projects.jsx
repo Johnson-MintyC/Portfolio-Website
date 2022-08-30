@@ -5,7 +5,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png"
 
 import projImg1 from "../assets/projectss/tictactoe.png" 
 import projImg2 from "../assets/projectss/coffeelog.png" 
-import projImg3 from "../assets/projectss/tictactoe.png" 
+import projImg3 from "../assets/projectss/jbemarket.png" 
 import projImg4 from "../assets/projectss/dineroulette.png" 
 
 

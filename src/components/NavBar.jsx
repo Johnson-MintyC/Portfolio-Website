@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from "../assets/img/logo.svg";
+import logo from "../assets/img/logo.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/github-11-32.ico";
 import navIcon3 from "../assets/img/mail-32.png";
@@ -28,6 +28,10 @@ const NavBar = () => {
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
   };
+
+  const openNewTab = (url) => {
+    window.open(url, '_blank')
+  }
 
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
@@ -80,9 +84,11 @@ const NavBar = () => {
                 <img src={navIcon3} alt="" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log("test")}>
+            <a href="/JohnsonCho2022Resume.pdf" without rel="noopener noreferrer" target="_blank">
+            <button className="vvd">
               <span>Resume</span>
             </button>
+            </a>
           </span>
         </Navbar.Collapse>
       </Container>
