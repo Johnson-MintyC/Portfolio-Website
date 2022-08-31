@@ -9,8 +9,12 @@ const ProjectCard = ({title, description, imgUrl, altText, liveLink, gitLink}) =
                 <h4>{title}</h4>
                 <span>{description}</span>
                 <Container>
-                    <button className="vvd">Link</button>
-                    <button className="vvd">Github</button>
+                    <a href={liveLink} without rel="noopener noreferrer" target="_blank">
+                        <button className="vvd">Link</button>
+                    </a>
+                    <a href={gitLink} without rel="noopener noreferrer" target="_blank">
+                        <button className="vvd">Github</button>
+                    </a>
                 </Container>
             </div>
         </div>

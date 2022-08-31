@@ -18,16 +18,22 @@ const Projects = () => {
             title: "Marketplace",
             description: "A secondhand markplace listing app",
             imgUrl: projImg3,
+            liveLink: "https://jbemarketplace.herokuapp.com/marketplace",
+            gitLink: "https://github.com/Johnson-MintyC/Group-Project"
           },
           {
             title: "Coffee-Notes",
             description: "A coffee tasting journal",
             imgUrl: projImg2,
+            liveLink: "https://coffee-notes-journal.herokuapp.com/",
+            gitLink: "https://github.com/Johnson-MintyC/Coffee-Notes"
           },
           {
             title: "Tic-Tac-Toe",
             description: "a web hosted tic tac toe game",
             imgUrl: projImg1,
+            liveLink: "https://johnson-mintyc.github.io/TicTacToe-Project/",
+            gitLink: "https://github.com/Johnson-MintyC/TicTacToe-Project"
           }
     ]
     return (
@@ -36,7 +42,7 @@ const Projects = () => {
                 <Row>
                     <Col>
                     <h2>Projects</h2>
-                    <p>Whateslgn;afdgna;jv aj </p>
+                    <p>These are some projects I've created or contributed too, watch this space for new projects!</p>
                     </Col>
                 </Row>
                 <Row>
