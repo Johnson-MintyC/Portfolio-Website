@@ -76,9 +76,9 @@ const NavBar = () => {
               <a href="https://github.com/Johnson-MintyC" target="_blank" without rel="noopener noreferrer">
                 <img src={navIcon2} alt="" />
               </a>
-              <a href="#">
+              {/* <a href="#">
                 <img src={navIcon3} alt="" />
-              </a>
+              </a> */}
             </div>
             <a href="/JohnsonCho2022Resume.pdf" without rel="noopener noreferrer" target="_blank">
             <button className="vvd">
