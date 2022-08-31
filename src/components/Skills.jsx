@@ -46,46 +46,46 @@ const Skills = () => {
                         <h5 className="skill-sub-header">FrontEnd</h5>
                         <Carousel responsive={responsive} infinite={true} className="skills-slider">
                             <div className="item">
-                                <img src={react} alt="Image" />
+                                <img src={react} alt="React Logo" />
                                 <p>React JS</p>
                             </div>
                             <div className="item">
-                                <img src={nodejs} alt="Image" />
+                                <img src={nodejs} alt="Node Logo" />
                                 <p>Node JS</p>
                             </div>
                             <div className="item">
-                                <img src={expic} alt="Image" />
+                                <img src={expic} alt="Express Logo" />
                                 <p>Express</p>
                             </div>
                             <div className="item">
-                                <img src={html5} alt="Image" />
+                                <img src={html5} alt="HTML5 Logo" />
                                 <p>HTML</p>
                             </div>
                             <div className="item">
-                                <img src={css3} alt="Image" />
+                                <img src={css3} alt="CSS3 Logo" />
                                 <p>CSS</p>
                             </div>
                         </Carousel>
                         <h5 className="skill-sub-header">BackEnd</h5>
                         <Carousel responsive={responsive} infinite={true} className="skills-slider">
                             <div className="item">
-                                <img src={jscript} alt="Image" />
+                                <img src={jscript} alt="JavaScript Logo" />
                                 <p>JavaScript</p>
                             </div>
                             <div className="item">
-                                <img src={python} alt="Image" />
+                                <img src={python} alt="Python Logo" />
                                 <p>Python</p>
                             </div>
                             <div className="item">
-                                <img src={postgresql} alt="Image" />
+                                <img src={postgresql} alt="PostgreSQL Logo" />
                                 <p>PostgreSQL</p>
                             </div>
                             <div className="item">
-                                <img src={mongodb} alt="Image" />
+                                <img src={mongodb} alt="Mongo Logo" />
                                 <p>MongoDB</p>
                             </div>
                             <div className="item">
-                                <img src={flaskic} alt="Image" />
+                                <img src={flaskic} alt="Flask Logo" />
                                 <p>Flask</p>
                             </div>
                         </Carousel>
