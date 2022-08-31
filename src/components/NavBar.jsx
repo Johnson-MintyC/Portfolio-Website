@@ -29,10 +29,6 @@ const NavBar = () => {
     setActiveLink(value);
   };
 
-  const openNewTab = (url) => {
-    window.open(url, '_blank')
-  }
-
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
