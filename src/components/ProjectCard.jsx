@@ -10,10 +10,10 @@ const ProjectCard = ({title, description, imgUrl, altText, liveLink, gitLink}) =
                 <span>{description}</span>
                 <Container>
                     <a href={liveLink} without rel="noopener noreferrer" target="_blank">
-                        <button className="vvd">Link</button>
+                        <button className="card-buttons">Link</button>
                     </a>
                     <a href={gitLink} without rel="noopener noreferrer" target="_blank">
-                        <button className="vvd">Github</button>
+                        <button className="card-buttons">Github</button>
                     </a>
                 </Container>
             </div>

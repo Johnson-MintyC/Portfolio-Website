@@ -42,7 +42,7 @@ const Skills = () => {
                     <Col>
                     <div className="skills-bx">
                         <h2>Skills</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repudiandae ratione, placeat repellendus inventore vel dignissimos excepturi. Culpa nobis eligendi reprehenderit illo quasi, repellat quam. Ex consequatur doloremque provident omnis.</p>
+                        <p>Full Stack Developement and expanding</p>
                         <h5 className="skill-sub-header">FrontEnd</h5>
                         <Carousel responsive={responsive} infinite={true} className="skills-slider">
                             <div className="item">

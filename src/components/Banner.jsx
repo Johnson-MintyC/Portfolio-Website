@@ -1,6 +1,6 @@
 // import { useEffect, useState } from "react"
 import {Col, Row, Container} from "react-bootstrap"
-import { ArrowRightCircle } from "react-bootstrap-icons"
+// import { ArrowRightCircle } from "react-bootstrap-icons"
 //Bobbing Image
 import headerImg from "../assets/img/header-img-desk.png"
 
@@ -60,8 +60,8 @@ const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`I'm Johnson Cho `}<br></br><span className="wrap">Software Engineer</span></h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae architecto delectus inventore fugit maxime pariatur nesciunt vero, necessitatibus animi ipsum nisi voluptate rem, quod assumenda. Error odio recusandae laudantium dolores.</p>
-                        <button onClick={()=>console.log("wahatever")}>Let's Connect <ArrowRightCircle size={25}/></button>
+                        <p className="about-me">I'm a Full Stack Developer located in Melbourne, recently migrated back from New Zealand to pursue a career in Software Engineering. </p>
+                        {/* <button onClick={()=>console.log("wahatever")}>Let's Connect <ArrowRightCircle size={25}/></button> */}
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header Img" />
