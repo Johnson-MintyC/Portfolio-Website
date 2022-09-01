@@ -13,18 +13,23 @@ const Projects = () => {
             title: "Dine-Roulette",
             description: "Randomly recommends a place to dine based on your selections,",
             imgUrl: projImg4,
+            techDesc: "Python Flask ReactJS postgreSQL HTML CSS",
+            liveLink: "https://github.com/Johnson-MintyC/dine-roulette",
+            gitLink: "https://github.com/Johnson-MintyC/dine-roulette"
         },
         {
             title: "Marketplace",
             description: "A secondhand markplace listing app",
             imgUrl: projImg3,
+            techDesc: "ReactJS Express NodeJS MongoDB Cloudinary Heroku HTML CSS",
             liveLink: "https://jbemarketplace.herokuapp.com/marketplace",
             gitLink: "https://github.com/Johnson-MintyC/Group-Project"
           },
           {
             title: "Coffee-Notes",
-            description: "A coffee tasting journal",
+            description: "A coffee tasting journal,",
             imgUrl: projImg2,
+            techDesc: "NodeJS Express EJS MongoDB Cloudinary Heroku HTML CSS",
             liveLink: "https://coffee-notes-journal.herokuapp.com/",
             gitLink: "https://github.com/Johnson-MintyC/Coffee-Notes"
           },
@@ -32,6 +37,7 @@ const Projects = () => {
             title: "Tic-Tac-Toe",
             description: "a web hosted tic tac toe game",
             imgUrl: projImg1,
+            techDesc: "HTML CSS JavaScript",
             liveLink: "https://johnson-mintyc.github.io/TicTacToe-Project/",
             gitLink: "https://github.com/Johnson-MintyC/TicTacToe-Project"
           }

@@ -60,7 +60,10 @@ const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`I'm Johnson Cho `}<br></br><span className="wrap">Software Engineer</span></h1>
-                        <p className="about-me">I'm a Full Stack Developer located in Melbourne, recently migrated back from New Zealand to pursue a career in Software Engineering. </p>
+                        <p className="about-me">I'm a Full Stack Developer located in Melbourne, recently migrated back from New Zealand to pursue a career in Software Engineering. 
+                            <br></br>
+                            This career change comes from years in working in the Fintech industry, organizing day to day workflows and helping solve and break down complex problems for my team and organization. 
+                        </p>
                         {/* <button onClick={()=>console.log("wahatever")}>Let's Connect <ArrowRightCircle size={25}/></button> */}
                     </Col>
                     <Col xs={12} md={6} xl={5}>
