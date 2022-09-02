@@ -11,7 +11,7 @@ const Projects = () => {
     const projects = [
         {
             title: "Dine-Roulette",
-            description: "Randomly recommends a place to dine based on your selections,",
+            description: "Randomly recommends a place to dine based on your selections, opportunity to integrate Python with JavaScript",
             imgUrl: projImg4,
             techDesc: "Python Flask ReactJS postgreSQL HTML CSS",
             liveLink: "https://github.com/Johnson-MintyC/dine-roulette",
@@ -19,7 +19,7 @@ const Projects = () => {
         },
         {
             title: "Marketplace",
-            description: "A secondhand markplace listing app",
+            description: "A secondhand marketplace app, A 3 person group project experiencing developing, planning and syncing code as a team",
             imgUrl: projImg3,
             techDesc: "ReactJS Express NodeJS MongoDB Cloudinary Heroku HTML CSS",
             liveLink: "https://jbemarketplace.herokuapp.com/marketplace",
@@ -27,7 +27,7 @@ const Projects = () => {
           },
           {
             title: "Coffee-Notes",
-            description: "A coffee tasting journal,",
+            description: "A coffee tasting journal, implementing RESTful apis and CRUD functionality",
             imgUrl: projImg2,
             techDesc: "NodeJS Express EJS MongoDB Cloudinary Heroku HTML CSS",
             liveLink: "https://coffee-notes-journal.herokuapp.com/",
@@ -35,7 +35,7 @@ const Projects = () => {
           },
           {
             title: "Tic-Tac-Toe",
-            description: "a web hosted tic tac toe game",
+            description: "a web hosted tic tac toe game, built with JavaScript!",
             imgUrl: projImg1,
             techDesc: "HTML CSS JavaScript",
             liveLink: "https://johnson-mintyc.github.io/TicTacToe-Project/",
