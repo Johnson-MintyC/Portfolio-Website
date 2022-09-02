@@ -2,7 +2,7 @@
 import {Col, Row, Container} from "react-bootstrap"
 // import { ArrowRightCircle } from "react-bootstrap-icons"
 //Bobbing Image
-import headerImg from "../assets/img/header-img-desk.png"
+import headerImg from "../assets/img/anidog.png"
 
 
 const Banner = () => {
@@ -63,6 +63,8 @@ const Banner = () => {
                         <p className="about-me">I'm a Full Stack Developer located in Melbourne, recently migrated back from New Zealand to pursue a career in Software Engineering. 
                             <br></br>
                             This career change comes from years in working in the Fintech industry, organizing day to day workflows and helping solve and break down complex problems for my team and organization. 
+                            <br></br>
+                            Excited to keep learning and coding, aswell as Mooncake my trusty coding companinon 
                         </p>
                         {/* <button onClick={()=>console.log("wahatever")}>Let's Connect <ArrowRightCircle size={25}/></button> */}
                     </Col>
