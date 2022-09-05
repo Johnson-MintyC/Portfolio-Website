@@ -64,7 +64,7 @@ const Banner = () => {
                             <br></br>
                             This career change comes from years in working in the Fintech industry, organizing day to day workflows and helping solve and break down complex problems for my team and organization. 
                             <br></br>
-                            Excited to keep learning and coding, aswell as Mooncake my trusty coding companinon 
+                            Excited to keep learning and coding, aswell as Mooncake my trusty coding companion 
                         </p>
                         {/* <button onClick={()=>console.log("wahatever")}>Let's Connect <ArrowRightCircle size={25}/></button> */}
                     </Col>
