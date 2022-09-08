@@ -9,8 +9,8 @@ const ProjectCard = ({title, description, imgUrl, altText, techDesc, liveLink, g
                 <h4>{title}</h4>
                 <span>{description}</span>
                 <br></br>
-                <span>{techDesc}</span>
-                <Container>
+                <span className="proj-lang">{techDesc}</span>
+                <Container >
                     <a href={liveLink} without rel="noopener noreferrer" target="_blank">
                         <button className="card-buttons">Link</button>
                     </a>
