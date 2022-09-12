@@ -268,7 +268,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   -webkit-text-stroke: 2px black;
 }
 .banner p {
-  color: #ff9500;
+  color: #fb6d00;
+  background-color: rgba(0, 0, 0, 0.5);
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 0.8px;
