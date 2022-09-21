@@ -14,7 +14,7 @@ const Projects = () => {
             description: "Randomly recommends a place to dine based on your selections, opportunity to integrate Python with JavaScript",
             imgUrl: projImg4,
             techDesc: "Python Flask ReactJS postgreSQL HTML CSS",
-            liveLink: "https://github.com/Johnson-MintyC/dine-roulette",
+            liveLink: "https://dineroulette.herokuapp.com/",
             gitLink: "https://github.com/Johnson-MintyC/dine-roulette"
         },
         {
