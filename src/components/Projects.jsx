@@ -4,11 +4,20 @@ import ProjectCard from "./ProjectCard"
 import projImg1 from "../assets/projectss/tictactoe.png" 
 import projImg2 from "../assets/projectss/coffeelog.png" 
 import projImg3 from "../assets/projectss/jbemarket.png" 
-import projImg4 from "../assets/projectss/dineroulette.png" 
+import projImg4 from "../assets/projectss/dineroulette.png"
+import projImg5 from "../assets/projectss/texasholdem.png" 
 
 
 const Projects = () => {
     const projects = [
+        {
+            title: "Texas Test'em ",
+            description: "A Texas Hold'em game in Python, to practice test suites, unit testing and test driven development",
+            imgUrl: projImg5,
+            techDesc: "Python",
+            liveLink: "https://github.com/Johnson-MintyC/Texas-Holdem-Poker",
+            gitLink: "https://github.com/Johnson-MintyC/Texas-Holdem-Poker"
+        },
         {
             title: "Dine-Roulette",
             description: "Randomly recommends a place to dine based on your selections, opportunity to integrate Python with JavaScript",
