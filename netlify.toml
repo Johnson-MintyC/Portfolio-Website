@@ -21,5 +21,5 @@
         child-src 'none'; 
         frame-ancestors 'none'; 
         navigate-to 'self' https://github.com https://linkedin.com; 
-        sandbox allow-same-origin allow-scripts allow-popups; 
+        sandbox allow-same-origin allow-scripts allow-popups allow-downloads; 
         upgrade-insecure-requests;'''
