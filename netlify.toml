@@ -4,7 +4,7 @@
     X-Frame-Options = 'DENY'
     X-Content-Type-Options = 'nosniff'
     X-XSS-Protection = '1; mode=block'
-    Referrer-Policy = 'no-referrer'
+    Referrer-Policy = 'same-origin'
     Permissions-Policy = 'microphone=(), camera=(), geolocation=()'
     Content-Security-Policy = '''
         default-src 'none'; 
