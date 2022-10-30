@@ -3,7 +3,8 @@
     [headers.values]
     X-Frame-Options = 'DENY'
     X-Content-Type-Options = 'nosniff'
-    Referrer-Policy = 'origin'
+    Referrer-Policy = 'no-referrer'
+    Permissions-Policy = 'microphone=(), camera=(), geolocation=()'
     Content-Security-Policy = '''
         default-src 'none'; 
         style-src 'self'; 
