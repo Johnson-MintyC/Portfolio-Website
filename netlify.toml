@@ -1,7 +1,9 @@
 [[headers]]
     for = "/*"
     [headers.values]
-    X-Frame-Options = 'SAMEORIGIN'
+    X-Frame-Options = 'DENY'
+    X-Content-Type-Options = 'nosniff'
+    Referrer-Policy = 'origin'
     Content-Security-Policy = '''
         default-src 'none'; 
         style-src 'self'; 
