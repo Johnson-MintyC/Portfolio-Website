@@ -21,6 +21,5 @@
         child-src 'none'; 
         frame-ancestors 'none'; 
         object-src 'self' blob:;
-        navigate-to 'self' https://github.com https://linkedin.com; 
-        sandbox allow-same-origin allow-scripts allow-popups allow-downloads; 
+        navigate-to 'self' https://github.com https://linkedin.com;
         upgrade-insecure-requests;'''
