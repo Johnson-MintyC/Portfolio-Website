@@ -1,10 +1,10 @@
 [[headers]]
     for = "/*"
     [headers.values]
-    X-Frame-Options = 'DENY'
+    X-Frame-Options = 'SAMEORIGIN'
     X-Content-Type-Options = 'nosniff'
     X-XSS-Protection = '1; mode=block'
-    Referrer-Policy = 'same-origin'
+    Referrer-Policy = 'no-referrer'
     Permissions-Policy = 'microphone=(), camera=(), geolocation=()'
     Content-Security-Policy = '''
         default-src 'none'; 
