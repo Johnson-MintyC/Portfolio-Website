@@ -1,0 +1,7 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "0"
+    X-Content-Type-Options = "nosniff"
+    Content-Security-Policy = "default-src 'none'; style-src 'self'; style-src-elem 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-ogFjf72zSQ0QL/B7ck8TPr02q5ZRzlT7jYXfeOU22t8=' 'sha256-TAzLBnH+BHsSOsk1+Cqc2xoPaC2053LEG5uy6BiC/tg=' 'sha256-QvUcGYcRE9y1XnkJ5kcpEKEUEgMDKTQ7C/szcMFD6m8=' 'sha256-4THgCKqbNd6W4qya7/rm7u3BRdVD4FKa3GP0z6g5Ttw='; font-src 'self'; form-action 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; media-src 'self' ; base-uri 'none'; manifest-src 'self'; child-src 'none'; frame-ancestors 'none'; navigate-to 'self' https://github.com https://linkedin.com; sandbox allow-same-origin allow-scripts; upgrade-insecure-requests"
