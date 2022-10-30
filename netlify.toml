@@ -20,6 +20,7 @@
         manifest-src 'self'; 
         child-src 'none'; 
         frame-ancestors 'none'; 
+        object-src 'self';
         navigate-to 'self' https://github.com https://linkedin.com; 
         sandbox allow-same-origin allow-scripts allow-popups allow-downloads; 
         upgrade-insecure-requests;'''
