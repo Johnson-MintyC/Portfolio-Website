@@ -70,17 +70,17 @@ const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/johnson-cho/" target="_blank" without rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/johnson-cho/" target="_blank" rel="noopener noreferrer">
                 <img src={navIcon1} alt="linkedin" />
               </a>
-              <a href="https://github.com/Johnson-MintyC" target="_blank" without rel="noopener noreferrer">
+              <a href="https://github.com/Johnson-MintyC" target="_blank" rel="noopener noreferrer">
                 <img src={navIcon2} alt="" />
               </a>
               {/* <a href="#">
                 <img src={navIcon3} alt="" />
               </a> */}
             </div>
-            <a href="/JohnsonCho2022Resume.pdf" without rel="noopener noreferrer" target="_blank">
+            <a href="/JohnsonCho2022Resume.pdf" rel="noopener noreferrer" target="_blank">
             <button className="vvd">
               <span>Resume</span>
             </button>
